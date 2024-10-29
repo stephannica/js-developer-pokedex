@@ -27,4 +27,4 @@ Confira o meu projeto acessando o <a href="https://stephannica.github.io/js-deve
 <li>Renan Johansen, especialista na Formação JavaScript Developer da DIO.</li>
 
 <h2>Conecte-se comigo!</h2>
-<a href="https://www.linkedin.com/in/stephanni/"><img align="left" alt="Linkedin" src="https://camo.githubusercontent.com/f8bc9da626a8cc69c342a6295ad65d0d249b9318f907fcf561c9dfdc80263664/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d4c696e6b6564496e2d3030373742353f7374796c653d666c61742d737175617265266c6f676f3d6c696e6b6564696e266c6f676f436f6c6f723d7768697465"/></a>
+<a href="https://www.linkedin.com/in/stephanni/"><img align="left" alt="Linkedin" src="![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)"/></a>
