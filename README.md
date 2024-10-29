@@ -2,7 +2,7 @@
 Este é um projeto de pokedex desenvolvido como parte do curso intermediário de JavaScript da Digital Innovation One (DIO). 
 
 <h2>🔎 Sobre o Projeto</h2>
-O objetivo deste projeto foi criar um site onde podemos visualizar informações sobre pokemons obtidas através do uso de API. Foi dividido em duas partes, onde, na primeira, criamos (com a ajuda do professor) a lista com todos os pokemons e na segunda (sozinhos) a interação de clicar, mostrar uma sobreposição com detalhes sobre os pokemons.
+O objetivo deste projeto foi criar um site onde podemos visualizar informações sobre Pokémons obtidas por meio do uso de uma API. O projeto foi dividido em duas partes: na primeira, com a ajuda do professor, criamos a lista com todos os Pokémons; na segunda, trabalhamos sozinhos para implementar a interação de clicar e mostrar uma sobreposição com detalhes sobre os Pokémons.
 
 <h2>⚙ Tecnologias Utilizadas</h2>
 <img align="left" alt="HTML5" src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white"/>
