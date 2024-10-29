@@ -1,0 +1,54 @@
+/* Modal Overlay */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease;
+    z-index: 1000;
+}
+
+.modal-overlay.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal-content {
+    background: #fff;
+    border-radius: 1rem;
+    padding: 2rem;
+    max-width: 500px;
+    width: 100%;
+    text-align: center;
+    position: relative;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.modal-info {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+/* Ajustes para mobile */
+@media screen and (max-width: 576px) {
+    .modal-content {
+        width: 90%;
+        padding: 1rem;
+    }
+}

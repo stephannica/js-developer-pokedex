@@ -1,8 +1,10 @@
-
 class Pokemon {
     number;
     name;
-    type;
+    type; // Tipo principal
     types = [];
     photo;
+    abilities = [];
+    height;
+    weight;
 }

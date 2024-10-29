@@ -1,24 +1,65 @@
-* {
+*{
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
 
-body {
-    background-color: #f6f8fc;
+@font-face {
+    font-family: 'Pokemon-Solid';
+    src: url('../fonts/Pokemon-Solid.ttf') format('truetype');
 }
 
-.content {
-    width: 100vw;
-    height: 100vh;
-    padding: 1rem;
+h1{
+    font-family: 'Pokemon-Solid', sans-serif;
+    font-weight: 100;
+    letter-spacing: 0.135rem;
+    display: flex;
+    justify-content: center;
+    color:#56bfff;
+}
+
+body{
+    background-image: url('../imgs/background.png');
+    background-attachment: fixed;
+    margin: 0;
+}
+
+.content{
+    padding: 1rem;  /*mais maleável do que pixel e normamlmente utilizada em desenv. front-end. Baseado no tamanho da fonte do navegador (por padrão 1rem = 16px). */
     background-color: #fff;
+    height: 100vh; /* Tamanho da tela inteira*/
+    width: 100vw;
+}
+
+/* Media query */
+@media screen and (min-width: 230px) and (max-width: 379px) {
+    .content {
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 380px) and (max-width: 575px) {
+    .content {
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .content {
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
 }
 
 @media screen and (min-width: 992px) {
     .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
+      max-width: 992px;
+      height: auto;
+      margin: 1rem auto;
+      border-radius: 1rem;
     }
 }
