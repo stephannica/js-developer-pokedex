@@ -18,7 +18,7 @@ O objetivo deste projeto foi criar um site onde podemos visualizar informações
 <h3>Site para dispostivos menores:</h3>
 <img alt="Celular" src="https://i.imgur.com/V25wLQx.png"/>
 <img alt="Celular popup" src="https://i.imgur.com/sznT0BX.png"/>
-Confira o meu projeto acessando o <a href="https://stephannica.github.io/js-developer-pokedex/">GitHub Pages</a>.
+Confira o meu projeto acessando a página do meu <a href="https://js-developer-pokedex-stephanni-c-rocha.vercel.app/">Vercel</a>.
 
 <h2>✒️ Autores</h2>
 <li><a href="https://github.com/stephannica">Stephanni Cavalcante Rocha</a></li>
